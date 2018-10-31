@@ -1,0 +1,32 @@
+ .content {
+        position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  width: 200px;
+  height: 40px;
+  background: tomato;
+  color:white;
+  border-radius:50px;
+  border:none;
+  cursor: pointer;
+}
+.fleft{
+  width:100px;
+  background-color:white;
+  border-radius:10px;
+}
+.main-disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+div {
+  margin-top:30px;
+}
+.clearfix{
+  clear:both;
+}
